@@ -1,5 +1,2 @@
 #! /bin/bash
-
-#The long format
-
 ls -l
