@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# display content directory in list format
+
+list="$(ls)"
+for items in $list
+do
+	echo "$items" | cut -d '-' -f 2
+done
