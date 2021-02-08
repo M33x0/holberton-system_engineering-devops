@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Script that display a text when signal is received
 
-trap "I am invincible!!!" SIGTERM
+trap "echo I am invincible!!!" SIGTERM
 while true
 do
 	echo "To infinity and beyond"
