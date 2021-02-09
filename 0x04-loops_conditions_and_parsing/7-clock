@@ -12,4 +12,4 @@ do
 		((min++))
 	done
 		((hour++))
-doneezf
+done
