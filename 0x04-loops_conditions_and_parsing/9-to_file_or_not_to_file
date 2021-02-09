@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # information about the holbertonschool file
-filename="holbertonschool"
 
 filename="holbertonschool"
 if [ -e $filename ]
