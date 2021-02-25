@@ -1,3 +1,5 @@
+![cmd challenge](https://1.bp.blogspot.com/-HC5TnlBNWUo/WJz0lcQJdCI/AAAAAAAA4hQ/flTwf7gl7p8Bi54eUbvRyipV3bCS_3dXACLcB/s1600/cmdchallenge.png)
+
 General
 A README.md file, at the root of the folder of the project, is mandatory
 This project will be manually reviewed.
