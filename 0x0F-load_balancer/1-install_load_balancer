@@ -17,5 +17,5 @@ backend nodes
     balance roundrobin
     server 2214-web-01 34.138.1.209
     server 2214-web-02 34.75.97.83" >> /etc/haproxy/haproxy.cfg
-
 sudo service haproxy restart
+
