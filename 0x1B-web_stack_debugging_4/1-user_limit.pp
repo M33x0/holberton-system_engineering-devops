@@ -1,5 +1,7 @@
 # change config and log with holb
-exec { 'fixing':
-  command  => "sudo /bin/sed -i 's/nofile 5000/g' /etc/security/limits.conf",
+exec { 'Increase open file limit':
+  onlyif   => 'test -e /etc/security/limits.conf',
+  command  => 'echo "" > /etc/security/limits.conf',
   provider => shell,
 }
+
