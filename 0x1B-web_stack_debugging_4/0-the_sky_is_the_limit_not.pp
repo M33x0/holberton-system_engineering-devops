@@ -1,10 +1,5 @@
 # Puppet script
-exec { 'Add_open_file_cache':
-  command => 'sed -i "s/# server_tokens off;/open_file_cache max=200000/" /etc/nginx/nginx.conf',
-  path    => '/usr/local/bin/:/bin/'
-}
-
--> exec { 'nginx-restart':
-  command => 'nginx restart',
-  path    => '/etc/init.d/'
-}
+exec { 'fixing file':
+  command => "sed -i 's/15/5000/g' /etc/default/nginx; service nginx restart",
+  path    => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  }
